@@ -1,0 +1,21 @@
+NestPanel/
+├── .gitignore
+├── build.gradle
+├── settings.gradle
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── gradle/wrapper/gradle-wrapper.properties
+├── gradle/wrapper/gradle-wrapper.jar   ← harus dari Android Studio
+├── .github/workflows/build.yml
+└── app/
+    ├── build.gradle
+    └── src/main/
+        ├── AndroidManifest.xml
+        ├── java/com/nest/ffpanel/
+        │   ├── MainActivity.java
+        │   ├── OverlayService.java
+        │   ├── PanelView.java
+        │   ├── Detector.java
+        │   └── AimService.java
+        └── res/xml/accessibility_service_config.xml
